@@ -1,8 +1,8 @@
 ## Diplomado en Visualización de Datos, v 2.0
 ### Módulo de Publicación en Web
-### Lunes 28 de agosto, 2017
-#### profesor@faco.cl
-#### http://profesor.faco.cl
+#### Lunes 28 de agosto, 2017
+##### profesor@faco.cl
+##### http://profesor.faco.cl
 
 -------
 
@@ -34,9 +34,9 @@ Mientras aparecían las plataformas de distribución digital de aplicaciones mó
 
 Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web, y hoy las conexiones a Internet en estos dispositivos se democratiza. Esto ya nos exige pensar en "responsive". 
 
-#### En la clase de hoy, revisaremos 
+#### En la clase de hoy, 
 
-0. Lenguajes (HTML, CSS, JavaScript y PHP).
+0. Revisaremos los princiaples lenguajes para la publicación en Web (HTML, CSS, JavaScript y PHP).
 
 1. Armaremos una página web simple con **HTML** y **CSS**, la que publicaremos con GitHub Pages.
 
@@ -50,7 +50,7 @@ Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web
 
 -------
 
-## Lenguajes
+## Lenguajes para la publicación en Web
 
 ### HTML
 
@@ -168,6 +168,8 @@ Pero lo más efectivo sería trabajar en un documento CSS independiente, que se 
 `<link rel="stylesheet" href="css/estilo.css" type="text/css">`
 
 Este documento, que ha servido para presentarles los contenidos de la clase, es un documento HTML, cuyo estilo está definido mediante un documento CSS.
+
+**Con lo revisado hasta este punto, podemos desarrollar una primera página web, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes cuente con una cuenta**.
 
 ### JS (JavaScript) 
 
