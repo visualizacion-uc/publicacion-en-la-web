@@ -170,7 +170,7 @@ Este documento, que ha servido para presentarles los contenidos de la clase, es 
 
 -----
 
-**Con lo revisado hasta este punto, podemos desarrollar una primera página web, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes cuente con una cuenta**.
+**Con lo revisado hasta este punto, podemos desarrollar una primera página web, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes tenga una cuenta**.
 
 -----
 
