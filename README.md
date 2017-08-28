@@ -186,6 +186,8 @@ Para reducir el trabajo con JavaScript a la medida de lo justo y necesario, se a
 
 Pueden encontrar tutorial básico de [jQuery](http://jquery.com/) en http://web.tursos.com/tutorial-jquery-rapido-facil-lo-basico/
 
+**Esta indicación es suficiente para saltar a Bootstrap, donde nos encontraremos un comentario que dice `<!-- jQuery first, then Popper.js, then Bootstrap JS -->`.**
+
 ### PHP
 
 Este lenguaje de programación se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor), afectando al documento completo antes de que éste sea enviado al [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)). Esta es su principal diferencia con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Una_re-introducci%C3%B3n_a_JavaScript#Información_general), que se ejecuta generalmente del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente), afectando al [DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#DOM_y_JavaScript).
