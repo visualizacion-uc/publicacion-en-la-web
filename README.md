@@ -43,7 +43,7 @@ Entre las aplicaciones para smartphones y tablets se incluyen Navegadores Web, y
 
 3. revisaremos Bootstrap, como una opción que facilita el trabajo en diseño web adaptable;
 
-4. para profundizar esta revisión, armaremos una página web, de diseño responsive, la que también publicaremos con GitHub Pages; y
+4. para profundizar esta revisión, armaremos una página web, de diseño web adaptable, la que también publicaremos con GitHub Pages; y
 
 5. armaremos un sitio web con PHP, el que no podremos publicar en GitHub Pages; sólo dejaremos en sus servidores locales implementados con MAMP.
 
