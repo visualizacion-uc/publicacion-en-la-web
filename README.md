@@ -219,40 +219,24 @@ Entre las instrucciones podemos aprovechar las funciones internas (incluídas) d
 
 Bootstrap es un [Framework](https://es.wikipedia.org/wiki/Framework) de [HTML](https://developer.mozilla.org/es/docs/Glossary/HTML), [CSS](https://developer.mozilla.org/es/docs/Glossary/CSS) y [JS](https://developer.mozilla.org/es/docs/Glossary/JavaScript) para implementar [diseño web adaptable](https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable). Es una opción entre varias que se podrían explorar: [Top 10 Front-End Frameworks of 2016](https://www.keycdn.com/blog/front-end-frameworks/), [Best Front-end frameworks to try in 2016](https://hashnode.com/post/best-front-end-frameworks-to-try-in-2016-cin1unmcn00tvrb535out1y08). Optar por Bootstrap es optar por lo más popular, por asegurarse la disponibilidad de mucha ayuda en línea.
 
-Sin más preámbulo, vamos al [sitio oficial de Bootstrap](http://getbootstrap.com), donde finalmente podemos encontrarnos con la versión 4. En el menú busquen la opción **Download**. Con esa descarga obtendrán la siguiente carpeta de la que podrán descargar varios documentos, hasta dejarla en:
+Sin más preámbulo, vamos al [sitio oficial de Bootstrap](http://getbootstrap.com), donde finalmente podemos encontrarnos con la versión 4. En el menú busquen la opción **Documentation**. Basta muy un poco de scroll para llegar al **Quick start**. La forma más rápida de partir es aprovechando los vínculos:
+
+Dentro de la cabeza de la página, debemos copiar:
 
 ```
-bootstrap/
-  ├── css/
-  │    └── bootstrap.min.css 
-  └── js/
-       └── bootstrap.min.js
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 ```
 
-Ahora vamos a otro sitio web: [http://jquery.com](http://jquery.com), para descargar **the compressed, production jQuery 3.2.1**. El código que descarguen, debe:
-
-- renombrarse “jquery.min.js”
-- incluirse en la carpeta “js”, dentro de “bootstrap”. 
-
-Con eso queda:
-
+Y más abajo, cuando se está cerrando el cuerpo de la página, debemos copiar:
 ```
-bootstrap/
-  ├── config.json
-  ├── css/
-  |    └── bootstrap.min.css
-  └── js/
-       ├── bootstrap.min.js
-       └── jquery.min.js
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 ```
 
-Ya podemos abrir la carpeta como un nuevo proyecto en sus editores de código. Lo primero que haremos en este editor será crear:
-
-- un documento `index.html`
-- un documento `style.css`
-- una carpeta `images`
-
-En el documento `index.html` tenemos que escribir: 
+En el documento `.html` donde copiemos lo indicada, debería verse así:
 
 ```
 <!DOCTYPE html>
@@ -276,30 +260,15 @@ En el documento `index.html` tenemos que escribir:
   </body>
 </html>
 ```
+Con esto, ya tenemos la base que nos permitirá construir rápidamente una página de apariencia profesional, siempre y cuando tengamos una clara idea respecto de una estructura conceptual de Boostrap, que considera contenedores (`container`, `container-fluid`), filas (`row`) y un [sistema de grillas de 12 columnas](https://getbootstrap.com/docs/4.0/layout/grid/) (`col`). 
 
-El documento `style.css` y la carpeta `images` pueden quedar vacías por ahora. Ya tenemos lo básico para comenzar a trabajar con Bootstrap:
+Este sistema de grillas de 12 columnas, dentro de una fila y un contenedor, puede adaptarse a los dispositivos, sean muy pequeños (`col-`), pequeños (`col-sm-`), medianos (`col-md-`), grandes (`col-lg-`) o extra grandes (`col-xl-`).
+
+Así, por ejemplo, puedo definir que la relación de dos divisiones se ajuste según el dispositivo sea muy pequeño, mediano o extra grande: 
 
 ```
-bootstrap/
-├── config.json
-├── css/
-|    └── bootstrap.min.css
-├── fonts/
-│    ├──  glyphicons-halflings-regular.eot
-│    ├──  glyphicons-halflings-regular.svg
-│    ├──  glyphicons-halflings-regular.ttf
-│    ├──  glyphicons-halflings-regular.woff
-│    └──  glyphicons-halflings-regular.woff2
-├── images/
-├── index.html
-└── js/
-│    ├── bootstrap.min.js
-│    └── jquery.min.js
-└── style.css
-```
+<div class="row">
+  <div class="col-6 col-md-5 col-xl-4">col-8</div>
+  <div class="col-6 col-md-7 col-xl-8">col-4</div>
+</div>
 
-#### Al trabajar con Bootstrap nos conviene recordar que: 
-
-- en una fila (`.row`) podemos usar hasta 12 columnas (`.col-`) de una grilla. [Las columnas que usemos hacen el ancho de un bloque](http://getbootstrap.com/examples/grid/);
-- podemos usar distintas cantidades de columnas (`.col-`) para el mismo bloque, como opciones a distintos tamaños de ventanas (`col-`, `col-sm-`, `col-md-`, `col-lg-`, `col-xl-`);
-- las columnas (`col-`,`col–sm-`,`col–md-`,`col–lg-`,`col–xl-`) van dentro de filas (`.row`), y las filas van dentro de contenedores, que pueden tener anchos fijos (`.container`) o fluidos (`.container-fluid`).
