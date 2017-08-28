@@ -32,7 +32,7 @@ Para acotar la historia, habría que recordar cómo es que Flash nos mantuvo mir
 
 Mientras aparecían las plataformas de distribución digital de aplicaciones móviles para los smartphones, las publicaciones de algunos blogueros se acortaron a los 140 caracteres, o se transformaron en estados de Facebook.
 
-Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web, y hoy las conexiones a Internet en estos dispositivos se democratiza. Esto ya nos exige pensar en "responsive". 
+Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web, y hoy las conexiones a Internet en estos dispositivos se democratiza. Esto ya nos exige pensar en [diseño web adaptable](https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable). 
 
 #### En la clase de hoy: 
 
@@ -40,7 +40,7 @@ Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web
 
 2. armaremos rápidamente una página web con **HTML** y **CSS**, la que publicaremos con GitHub Pages;
 
-3. revisaremos Bootstrap, como una opción de Framework para facilitar el trabajo en web responsive;
+3. revisaremos Bootstrap, como una opción que facilita el trabajo en diseño web adaptable;
 
 4. armaremos una página web, de diseño responsive, con Bootstrap, la que también la publicaremos con GitHub Pages; y
 
@@ -278,7 +278,7 @@ bootstrap/
        └── jquery.min.js
 ```
 
-Ya podemos abrir la carpeta como un nuevo proyecto en [Atom](https://atom.io/). Lo primero que haremos en este editor será crear:
+Ya podemos abrir la carpeta como un nuevo proyecto en sus editores de código. Lo primero que haremos en este editor será crear:
 
 - un documento `index.html`
 - un documento `style.css`
