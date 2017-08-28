@@ -13,7 +13,7 @@ A finales de la década de 1980, trabajando por una mejor manera de actualizar y
 Berners-Lee y su grupo crearon un sistema de distribución que consideraba:
 
 - el **lenguaje [HTML](https://developer.mozilla.org/es/docs/Web/HTML)** (HyperText Markup Language), para describir el contenido de la página web; 
-- el **protocolo HTTP** (HyperText Transfer Protocol), para las transacciones entre un cliente y un servidor; y 
+- el **protocolo HTTP** (HyperText Transfer Protocol), para las transacciones entre [cliente y servidor](https://es.wikipedia.org/wiki/Cliente-servidor); y 
 - la **URL** (Uniform Resource Locator), para apuntar a un recurso en una dirección.
 
 Este sistema de distribución, accesible vía Internet y Navegador Web, pronto sumó:
