@@ -1,0 +1,30 @@
+/* Dejo todo comentado
+
+html,body{
+  height:100%;
+  width:100%;
+  font-size: 100%;
+}
+
+body{
+  background:silver;
+  padding:2%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:1em;
+}
+
+div{
+  width: 500px;
+  max-width:80%;
+  padding:1em;
+  background:silver;
+  border:1px solid #ccc;
+  background:#fff;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+*/
