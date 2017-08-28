@@ -186,7 +186,7 @@ Para reducir el trabajo con JavaScript a la medida de lo justo y necesario, se a
 
 Pueden encontrar tutorial básico de [jQuery](http://jquery.com/) en http://web.tursos.com/tutorial-jquery-rapido-facil-lo-basico/
 
-**Esta indicación es suficiente para saltar a Bootstrap, donde nos encontraremos un comentario que dice `<!-- jQuery first, then Popper.js, then Bootstrap JS -->`.**
+**Esta indicación es suficiente para saltar a [Bootstrap](https://github.com/profesorfaco/web/blob/master/README.md#bootstrap), donde nos encontraremos un comentario que dice `<!-- jQuery first, then Popper.js, then Bootstrap JS -->`.**
 
 ### PHP
 
