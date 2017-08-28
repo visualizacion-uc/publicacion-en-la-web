@@ -169,7 +169,11 @@ Pero lo más efectivo sería trabajar en un documento CSS independiente, que se 
 
 Este documento, que ha servido para presentarles los contenidos de la clase, es un documento HTML, cuyo estilo está definido mediante un documento CSS.
 
+-----
+
 **Con lo revisado hasta este punto, podemos desarrollar una primera página web, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes cuente con una cuenta**.
+
+-----
 
 ### JS (JavaScript) 
 
