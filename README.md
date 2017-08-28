@@ -211,7 +211,7 @@ Entre las instrucciones podemos aprovechar las funciones internas (incluídas) d
 
 -----
 
-**Antes de terminar la clase volveremos sobre este lenguaje, para poder completar un sitio web con el material de la carpeta 6. Pero antes, vamos a preparar una página web de diseño adaptativo mediante el uso de Bootstrap**
+**Antes de terminar la clase volveremos sobre este lenguaje, para poder completar un sitio web con el material de la carpeta 5. Pero antes, vamos a preparar una página web de diseño adaptativo mediante el uso de Bootstrap**
 
 -------
 
