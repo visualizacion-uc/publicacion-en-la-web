@@ -1,5 +1,5 @@
-# Diplomado en Visualización de Datos, v 2.0
-## Módulo de Publicación en Web
+## Diplomado en Visualización de Datos, v 2.0
+### Módulo de Publicación en Web
 ### Lunes 28 de agosto, 2017
 #### profesor@faco.cl
 #### http://profesor.faco.cl
@@ -24,9 +24,9 @@ Este sistema de distribución, accesible vía Internet y Navegador Web, pronto s
 
 En paralelo al desarrollo de funciones, también se proponían modos de mejorar la presentación de las páginas web. La propuesta que se convirtió en estándar fue la de CSS (Cascading Stylesheets), un lenguaje descriptivo que ofrece a los desarrolladores el control total sobre estilo y formato de sus documentos.
 
-Con estas tecnologías, para el año 2000 ya podrían diferenciarse dos modos de hacer páginas web. Uno orientado a la información, con sitios web como sistema de hipertexto, y otro orientado a las tareas, con aplicaciones web como interfaz de software. Desde aquí Jesse James Garrett propone un gráfico aún útil:
+Con estas tecnologías, para el año 2000 ya podrían diferenciarse dos modos de hacer páginas web. Uno orientado a la información, con sitios web como sistema de hipertexto, y otro orientado a las tareas, con aplicaciones web como interfaz de software. Desde aquí Jesse James Garrett propone una dualidad básica:
 
-![GitHub Logo](https://i.pinimg.com/originals/b3/66/ce/b366cec6b0658bbb7baa329aec69906e.jpg)
+![JJGARRETT](https://i.pinimg.com/originals/b3/66/ce/b366cec6b0658bbb7baa329aec69906e.jpg)
 
 Para acotar la historia, habría que recordar cómo es que Flash nos mantuvo mirando la pantalla por un rato, hasta que llegaron blogueros y comentaristas. 
 
@@ -34,15 +34,17 @@ Mientras aparecían las plataformas de distribución digital de aplicaciones mó
 
 Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web, y hoy las conexiones a Internet en estos dispositivos se democratiza. Esto ya nos exige pensar en "responsive". 
 
-En la clase de hoy: 
+#### En la clase de hoy 
 
-0. Revisaremos, rápidamente, algo HTML, CSS, JavaScript y PHP.
+0. Revisaremos HTML, CSS, JavaScript y PHP.
 
 1. Armaremos una página web simple con **HTML** y **CSS**, la que publicaremos con GitHub Pages.
 
-2. Armaremos una página web, de diseño responsive, con Bootstrap, la que también la publicaremos con GitHub Pages.
+2. Revisaremos Bootstrap, como una opción de Framework para facilitar el trabajo en web responsive.
 
-3. Armaremos un sitio web con PHP.
+3. Armaremos una página web, de diseño responsive, con Bootstrap, la que también la publicaremos con GitHub Pages.
+
+4. Armaremos un sitio web con PHP.
 
 
 
@@ -179,6 +181,27 @@ Pueden encontrar tutorial básico de [jQuery](http://jquery.com/) en el siguient
 
 ## PHP
 
-Este lenguaje es utilizado para programar scripts que se ejecutan del lado del servidor. Esa ejecución es anterior al envío de los datos al cliente, por lo que no se le puede seguir ninguna pista de ejecución.
+Este lenguaje es utilizado para programar [scripts del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor), esto significa que el [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) no recibe sino un resultado ya ejecutado en el otro lado. La opción de "ver código fuente" nunca mostrará lenguaje PHP; la única pista la tendremos en la barra de direcciones de nuestro navegador, donde no habrá un `*.html` sino un `*.php`. Esta extensión fue el primer elemento que consideró el servidor para "poner manos a la obra". 
 
-El código PHP se escribe entre las lineas de HTML, entre las etiquetas `<?php ;?>`.
+PHP se ejecuta del lado del [servidor](https://es.wikipedia.org/wiki/Servidor), afectando al documento completo antes de que éste sea enviado al [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)). Esta es su principal diferencia con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Una_re-introducci%C3%B3n_a_JavaScript#Información_general), que se ejecuta del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente), afectando al [DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#DOM_y_JavaScript).
+
+Como PHP se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor): Nunca aparece al “ver código fuente”, ni existe una Consola de PHP en los navegadores. Por esta razón, para compartir tus script en PHP puedes usar servicios como [codepad](http://codepad.org/)……… Y para resolver muchas dudas existe [Stackoverflow](http://stackoverflow.com/questions/tagged/php), además del sitio con [referencias oficiales de PHP](http://php.net/manual/es/langref.php).
+
+Para que se ejecute PHP en sus computadores, en esta clase **deben tener instalado [MAMP](https://www.mamp.info/en/)**. Este programa nos permite montar un servidor local, para trabajar con **Apache** (servidor HTTP), **MySQL** (sistema de gestión de bases de datos) y **PHP** (lenguaje de programación).
+
+Para trabajar con PHP debemos usar documentos con extensión `*.php`, los que se pueden crear de la misma manera que normalmente se crean los documentos `*.html`: trabajando con cualquier editor de código.
+
+Dentro de los documentos con extensión `*.php` tenemos que usar etiquetas de apertura y cierre particulares, que son `<?php` y `?>` (las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el servidor.
+
+Entre `<?php` y `?>` se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma `;`. Y si necesitan escribir comentarios de una línea, deben anteponer un doble slash `//`. [Por ejemplo](http://codepad.org/ZZXEWJXK): 
+
+```
+<?php 
+//primero defino una variable
+$inception = "película escrita, producida y dirigida por Christopher Nolan";
+//luego imprimo el contenido de la variable
+echo $inception;
+?>
+```
+
+Entre las instrucciones podemos aprovechar las funciones internas (incluídas) de PHP; es muy dificil que exista alguien capaz de aprender de memoria todas las `funciones()` que ofrece este lenguaje de programación, pero en el [sitio oficial de PHP](http://php.net/manual/es/langref.php), y en [varios lugares más](http://stackoverflow.com/questions/tagged/php), se puede encontrar mucha ayuda.
