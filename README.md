@@ -176,7 +176,9 @@ Pero lo más efectivo sería trabajar en un documento CSS independiente, que se 
 
 ### JS (JavaScript) 
 
-En este lenguaje de programación podrán profundizar en los siguientes módulos del diplomado. Por ahora, conviene decir que se trata de un lenguaje de programación que, origintalmente, se ejecuta del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente). Cuando [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide) se ejecuta, no modifica directamente el código fuente de la página web sino que el [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) de la misma; podemos seguirle la pista a esta ejecución mediante la [Consola de JavaScript](https://transferwise.com/es/help/article/2247654/tecnico-navegador/como-abrir-la-consola-de-tu-navegador) que incluyen los navegadores.
+En este lenguaje de programación podrán profundizar en los siguientes módulos del diplomado. Por ahora, conviene decir que se trata de un lenguaje de programación que, origintalmente, se ejecuta del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente). 
+
+Cuando [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide) se ejecuta, no modifica directamente el código fuente de la página web sino que el [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) de la misma; podemos seguirle la pista a esta ejecución mediante la [Consola de JavaScript](https://transferwise.com/es/help/article/2247654/tecnico-navegador/como-abrir-la-consola-de-tu-navegador) que incluyen los navegadores.
 
 El código JavaScript se puede incluir o vincular al documento HTML entre etiquetas `<script></script>` y en cualquier parte del documento, aunque se suele ubicar según la prioridad de carga (si ejecuta algo clave, va arriba; si su ejecución es secundaria respecto del texto, va abajo).
 
