@@ -34,18 +34,17 @@ Mientras aparecían las plataformas de distribución digital de aplicaciones mó
 
 Entre las aplicaciones móviles para los smartphones se incluyen Navegadores Web, y hoy las conexiones a Internet en estos dispositivos se democratiza. Esto ya nos exige pensar en "responsive". 
 
-#### En la clase de hoy, 
+#### En la clase de hoy: 
 
-0. Revisaremos los princiaples lenguajes para la publicación en Web (HTML, CSS, JavaScript y PHP).
+1. revisaremos los princiaples lenguajes para la publicación en Web (HTML, CSS, JavaScript y PHP);
 
-1. Armaremos una página web simple con **HTML** y **CSS**, la que publicaremos con GitHub Pages.
+2. armaremos rápidamente una página web con **HTML** y **CSS**, la que publicaremos con GitHub Pages;
 
-2. Revisaremos Bootstrap, como una opción de Framework para facilitar el trabajo en web responsive.
+3. revisaremos Bootstrap, como una opción de Framework para facilitar el trabajo en web responsive;
 
-3. Armaremos una página web, de diseño responsive, con Bootstrap, la que también la publicaremos con GitHub Pages.
+4. armaremos una página web, de diseño responsive, con Bootstrap, la que también la publicaremos con GitHub Pages; y
 
-4. Armaremos un sitio web con PHP.
-
+5. armaremos un sitio web con PHP.
 
 
 -------
@@ -177,7 +176,7 @@ Este documento, que ha servido para presentarles los contenidos de la clase, es 
 
 ### JS (JavaScript) 
 
-Este lenguaje es utilizado para programar scripts que se ejecutan del lado del cliente. Cuando [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide) se ejecuta, no modifica directamente el código fuente de la página web sino que el [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) de la misma; podemos seguirle la pista a esta ejecución mediante la [Consola de JavaScript](https://transferwise.com/es/help/article/2247654/tecnico-navegador/como-abrir-la-consola-de-tu-navegador) que incluyen los navegadores.
+Este lenguaje de programación que se ejecutan del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente). Cuando [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide) se ejecuta, no modifica directamente el código fuente de la página web sino que el [DOM](https://es.wikipedia.org/wiki/Document_Object_Model) de la misma; podemos seguirle la pista a esta ejecución mediante la [Consola de JavaScript](https://transferwise.com/es/help/article/2247654/tecnico-navegador/como-abrir-la-consola-de-tu-navegador) que incluyen los navegadores.
 
 El código JavaScript se puede incluir o vincular al documento HTML entre etiquetas `<script></script>` y en cualquier parte del documento, aunque se suele ubicar según la prioridad de carga (si ejecuta algo clave, va arriba; si su ejecución es secundaria respecto del texto, va abajo).
 
@@ -189,11 +188,9 @@ Pueden encontrar tutorial básico de [jQuery](http://jquery.com/) en el siguient
 
 ### PHP
 
-Este lenguaje es utilizado para programar [scripts del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor), esto significa que el [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) no recibe sino un resultado ya ejecutado en el otro lado. La opción de "ver código fuente" nunca mostrará lenguaje PHP; la única pista la tendremos en la barra de direcciones de nuestro navegador, donde no habrá un `*.html` sino un `*.php`. Esta extensión fue el primer elemento que consideró el servidor para "poner manos a la obra". 
+Este lenguaje de programación que se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor), afectando al documento completo antes de que éste sea enviado al [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)). Esta es su principal diferencia con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Una_re-introducci%C3%B3n_a_JavaScript#Información_general), que se ejecuta del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente), afectando al [DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#DOM_y_JavaScript).
 
-PHP se ejecuta del lado del [servidor](https://es.wikipedia.org/wiki/Servidor), afectando al documento completo antes de que éste sea enviado al [cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)). Esta es su principal diferencia con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Una_re-introducci%C3%B3n_a_JavaScript#Información_general), que se ejecuta del [lado del cliente](https://es.wikipedia.org/wiki/Lado_del_cliente), afectando al [DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#DOM_y_JavaScript).
-
-Como PHP se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor): Nunca aparece al “ver código fuente”, ni existe una Consola de PHP en los navegadores. Por esta razón, para compartir tus script en PHP puedes usar servicios como [codepad](http://codepad.org/)……… Y para resolver muchas dudas existe [Stackoverflow](http://stackoverflow.com/questions/tagged/php), además del sitio con [referencias oficiales de PHP](http://php.net/manual/es/langref.php).
+Como PHP se ejecuta [del lado del servidor](https://es.wikipedia.org/wiki/Script_del_lado_del_servidor): Nunca aparece al “ver código fuente”, ni existe una Consola de PHP en los navegadores. Por esta razón, para compartir tus script en PHP puedes usar servicios como [codepad](http://codepad.org/). Y para resolver muchas dudas existe [Stackoverflow](http://stackoverflow.com/questions/tagged/php), además del sitio con [referencias oficiales de PHP](http://php.net/manual/es/langref.php).
 
 Para que se ejecute PHP en sus computadores, en esta clase **deben tener instalado [MAMP](https://www.mamp.info/en/)**. Este programa nos permite montar un servidor local, para trabajar con **Apache** (servidor HTTP), **MySQL** (sistema de gestión de bases de datos) y **PHP** (lenguaje de programación).
 
