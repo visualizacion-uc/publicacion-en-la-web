@@ -170,7 +170,7 @@ Pero lo más efectivo sería trabajar en un documento CSS independiente, que se 
 
 -----
 
-**Con lo revisado hasta este punto, podemos desarrollar una primera página web, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes tenga una cuenta en esta plataforma de desarrollo colaborativo.**
+**Con lo revisado hasta este punto, podemos desarrollar una primera página web aprovechando la carpeta 2, la que publicaremos en GitHub Pages, para lo que es necesario que cada uno de ustedes tenga una cuenta en esta plataforma de desarrollo colaborativo.**
 
 -----
 
@@ -211,7 +211,7 @@ Entre las instrucciones podemos aprovechar las funciones internas (incluídas) d
 
 -----
 
-**Antes de terminar la clase volveremos sobre este lenguaje, para poder completar un sitio web. Pero antes, vamos a preparar una página web de diseño adaptativo mediante el uso de Bootstrap**
+**Antes de terminar la clase volveremos sobre este lenguaje, para poder completar un sitio web con el material de la carpeta 6. Pero antes, vamos a preparar una página web de diseño adaptativo mediante el uso de Bootstrap**
 
 -------
 
@@ -271,4 +271,12 @@ Así, por ejemplo, puedo definir que la relación de dos divisiones se ajuste se
   <div class="col-6 col-md-5 col-xl-4">col-8</div>
   <div class="col-6 col-md-7 col-xl-8">col-4</div>
 </div>
+```
 
+Favor revisen estos Bootstrap grid examples: https://getbootstrap.com/docs/4.0/examples/grid/
+
+-------
+
+**Ahora podríamos preparar una página web de diseño adaptativo mediante el uso de Bootstrap. Para hacerlo, vamos a trabajar con lo contenido en la carpeta 4**
+
+-------
